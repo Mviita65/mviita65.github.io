@@ -1,8 +1,22 @@
+[class^="col-"] {
+    background: lightgrey;
+    border: solid;
+    padding: 0px;
+}
+
+.card-img-top {
+  margin-bottom: 15px;
+}
+.col-md-4 {
+  padding: 15px;
+  border: none;
+  background-color: white;
+}
 .jumbotron {
-    background-color: lightgrey;
-    padding: 35px;
+  background-color: lightgrey;
+  padding: 30px;
 } 
 
 html {
-    padding: 0px;
+  padding: 0px;
 }
