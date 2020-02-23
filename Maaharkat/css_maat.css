@@ -1,0 +1,91 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td, th {
+    color: darkblue;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border-radius: 15px;
+    background: bisque;
+    padding: 8px;
+    text-align: center;
+}
+
+#main {
+    display: flex;
+}
+
+img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+#kuvaus h1{
+    color: darkmagenta;
+}
+
+#muualta img{
+    display: block;
+    margin:0 auto;
+}
+
+#kuvaus, #data, #muualta {
+    width: 33%;
+    height: auto;
+    background-color: aquamarine;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#header {
+    border-radius: 15px;
+    padding: 15px 30px;
+    }
+
+#Albania {
+    background-color: lightpink;
+    }
+
+#Estonia {
+    background-color: lightgreen;
+}
+
+#Islanti {    
+    background-color: paleturquoise;
+    }
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    }
+
+.navbutton {
+    display: inline-block;
+    padding: 10px;
+    background-color: bisque;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    text-decoration: none;
+    width: 100%;
+}
+
+hr {
+    border: 1px solid blue;
+}

@@ -1,0 +1,118 @@
+html {
+    background-image: url("img/tausta.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+header { grid-area: header; }
+aside { grid-area: meista; }
+article { grid-area: ruokalista; }
+section { grid-area: palaute; }
+footer { grid-area: footer; }
+
+@media screen and (min-width: 960px){
+  body {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header header'
+      'meista meista ruokalista ruokalista ruokalista palaute palaute'
+      'footer footer ruokalista ruokalista ruokalista palaute palaute';
+    grid-gap: 10px;
+    padding: 40px;
+    width: 85%;
+    margin: auto; 
+    font-size: 18px; 
+  }  
+}
+
+@media screen and (max-width: 480px){
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: #3196F3;
+    padding: 3px;
+    font-size: 15px;
+    }
+
+  aside {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px){
+  body {
+    width: 320px;
+  }
+}
+
+header {
+  text-align: center;
+  padding: 0px 0px;
+}
+
+aside, article, section, footer {
+  text-align: center;
+  padding: 10px 10px;
+ }
+
+article {
+  border: solid 1px lightcoral;
+  border-radius: 15px;
+  background-color: lightgoldenrodyellow;
+  font-style: italic;
+}
+
+a {
+  font-size: 14px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+h2 {
+  font-style: normal;
+}
+
+img {
+  width: 85%;
+}
+
+form {
+  text-align: left;
+  padding: 30px;
+}
+
+#button {
+  display: block;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color: rgb(73, 71, 71);
+  background-color: lightgrey; 
+  border: solid;
+  border-top-color: whitesmoke;
+  border-left-color: whitesmoke;
+  border-bottom-color: grey;
+  border-right-color: grey;
+}
+
+table, tr, td {
+  margin: auto;
+}
+
+

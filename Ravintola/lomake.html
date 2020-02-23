@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <title>Ravintola Oulan Gourmet - Palaute</title>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link type="text/css" rel="stylesheet" href="tyyli.css" >
+</head>
+<body>
+    <header>
+        <h1>Ravintola Oulan Gourmet</h1>
+    </header>
+    <aside>
+        <h2>Meistä</h2>
+        <p>Lappilaista ruokaa ja<br>pohjoisen tunnelmaa.</p>
+        <p>Aukioloajat:<br>ma - pe, 10:30 - 15:00</p>
+        <h4>Lounaan hinta 11 euroa.</h4>Hintaan sisältyy ruokajuoma:<br>vesi, kotikalja, maito.
+    </aside>
+    <article>
+        <h2>Palaute kokemuksestani</h2>
+        <form action="kiitos.html">
+            <table>
+                <tr>
+                    <td>Käyntipäivä: </td>
+                    <td><input type="date" name="visitdate"></td>
+                </tr>
+                <tr>
+                    <td> Odotusaika:</td>
+                    <td><select name="waited">
+                            <option value="None">Valitse</option>
+                            <option value="Nopea">10-20 min</option>
+                            <option value="Jes">20-25 min</option>
+                            <option value="Hohhoijaa">25-30 min</option>
+                            <option value="Noway">yli 30 min</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Maku:</td>
+                    <td><select name="taste">
+                            <option value="Tyhjä">Valitse</option>
+                            <option value="Herkullista">herkullista</option>
+                            <option value="Maistui">maistui hyvälle</option>
+                            <option value="Menettelee">menettelee</option>
+                            <option value="Karseaa">karseaa</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Visuaalisuus:</td>
+                    <td><select name="look">
+                            <option value="Empty">Valitse</option>
+                            <option value="Taiteellista">taiteellista</option>
+                            <option value="Kaunista">kaunista</option>
+                            <option value="Siinähän">siinähän se</option>
+                            <option value="Roiskaistu">roiskaistu</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Muuta:</td>
+                    <td><textarea name="message" rows="5" cols="30"></textarea></td>
+                </tr>
+            </table>
+            <fieldset>
+                    <legend>Minua saa myös haastatella</legend>
+                    <table>
+                        <tr>
+                            <td>Nimi:</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Puhelin:</td>
+                            <td><input type="text"></td>
+                        </tr>
+                    </table>       
+            </fieldset><br>
+                    <input id="button" type="submit" value="lähetä">
+        </form>
+    </article>
+    <section>
+            <h2>Yhteystiedot</h2>
+            <p>Ravintola Oulan Gourmet, <br>Ravintolabulevardi 12, <br>96200 ROVANIEMI</p>
+            <p>Puh. (016) 555 4755</p> 
+            <p>Sähköposti: <br>ravintola.oulangourmet<br>(at) oulanet.fi</p>
+            <p><a href="https://c.pxhere.com/photos/61/cb/food_serving_shower_invitations_food_amp_drink_wedding_wedding_party_wall_hors_d_oeuvres-669820.jpg!d">Taustakuva CC0 Public Domain</a></p>    
+    </section>
+    <footer>
+    </footer>
+</body>
+</html>
