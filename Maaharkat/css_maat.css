@@ -97,6 +97,10 @@ img {
     width: 100%;
 }
 
+ul {
+    list-style-type: none;
+}
+
 hr {
     border: 1px solid blue;
 }
