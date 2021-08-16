@@ -64,9 +64,9 @@ article {
   font-style: italic;
 }
 
-a {
+/* a, input {
   font-size: 14px;
-}
+} */
 
 a:link {
   text-decoration: none;
@@ -98,8 +98,11 @@ form {
 }
 
 #button {
-  display: block;
+  /* display: block; */
+  padding: 5px;
   margin: auto;
+  text-align: center;
+  font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   color: rgb(73, 71, 71);
@@ -109,6 +112,13 @@ form {
   border-left-color: whitesmoke;
   border-bottom-color: grey;
   border-right-color: grey;
+}
+#space {
+  margin-right: 1em;
+}
+
+#buttonArea {
+  text-align: center;
 }
 
 table, tr, td {
